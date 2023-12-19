@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".daun_jarak">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/daun_jarak"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/daun_jarak"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_below="@+id/daun_jarak"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_half_rounded"/>
+
+        <View
+            android:id="@+id/v_desc"
+            android:layout_width="35dp"
+            android:layout_height="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/bg_shape"
+            android:backgroundTint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v_desc"
+            android:text="Nama Tanaman Herbal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_namaTH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul"
+            android:text="Daun Jarak"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_judul_manfaat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_namaTH"
+            android:text="Manfaat Tanaman Herbal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_manfaatTanaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul_manfaat"
+            android:text="Kandungan senyawa aktifnya, seperti tanin, flavonoid, dan alkaloid, memberikan sifat antiinflamasi dan antioksidan yang dapat membantu meredakan peradangan dalam tubuh dan melindungi sel-sel dari kerusakan oksidatif. Daun jarak juga dikenal memiliki potensi antimikroba, yang dapat membantu melawan infeksi dan mempercepat proses penyembuhan luka. Beberapa penelitian menunjukkan bahwa ekstrak daun jarak dapat berperan dalam pengelolaan diabetes dengan mengatur kadar gula darah. Selain itu, daun jarak juga diketahui dapat digunakan untuk meredakan nyeri sendi dan otot. "
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

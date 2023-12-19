@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/ic_home" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Selamat Datang di Green Medic!"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ayam"
+        android:textSize="23sp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="421dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_half_rounded"
+        android:backgroundTint="#D9D9D9">
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_half_rounded"
+            android:padding="30dp"
+            android:text="@string/descrption"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/stanberry"
+            android:backgroundTint="#D9D9D9"
+            />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:elevation="25dp"
+        android:text="Go to Menu"
+        android:backgroundTint="@color/bts"
+        android:fontFamily="@font/cornersky"
+        android:textSize="10sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/bts"
+        android:fontFamily="@font/cornersky"
+        android:textSize="10sp"
+        android:text="Go to Profil" />
+
+
+</LinearLayout>

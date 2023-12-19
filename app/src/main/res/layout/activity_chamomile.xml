@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".chamomile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/chamomile"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/chamomile"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_below="@+id/chamomile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_half_rounded"/>
+
+        <View
+            android:id="@+id/v_desc"
+            android:layout_width="35dp"
+            android:layout_height="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/bg_shape"
+            android:backgroundTint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v_desc"
+            android:text="Nama Tanaman Herbal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_namaTH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul"
+            android:text="Chamomile (Matricaria chamomilla)"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_judul_manfaat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_namaTH"
+            android:text="Manfaat Tanaman Herbal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_manfaatTanaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul_manfaat"
+            android:text="Teh chamomile sering digunakan sebagai ramuan herbal untuk meredakan stres dan mempromosikan tidur yang nyenyak berkat sifat relaksasinya. Chamomile juga memiliki sifat antiinflamasi dan antispasmodik yang dapat membantu meredakan gangguan pencernaan, seperti perut kembung dan sindrom usus iritabel. Selain itu, chamomile memiliki efek menenangkan pada sistem saraf, dapat membantu mengurangi kecemasan, dan meningkatkan mood. Senyawa-senyawa antioksidan dalam chamomile juga dapat memberikan dukungan terhadap sistem kekebalan tubuh."
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </RelativeLayout>
+
+</ScrollView>

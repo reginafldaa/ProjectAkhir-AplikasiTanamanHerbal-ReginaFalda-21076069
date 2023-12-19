@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".daun_mint">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/daun_mint"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/daunmint"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_below="@+id/daun_mint"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_half_rounded"/>
+
+        <View
+            android:id="@+id/v_desc"
+            android:layout_width="35dp"
+            android:layout_height="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/bg_shape"
+            android:backgroundTint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v_desc"
+            android:text="Nama Tanaman Herbal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_namaTH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul"
+            android:text="Daun Mint"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_judul_manfaat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_namaTH"
+            android:text="Manfaat Tanaman Herbal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_manfaatTanaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul_manfaat"
+            android:text="Secara tradisional, daun mint digunakan untuk meredakan masalah pencernaan seperti perut kembung, mual, dan sindrom usus iritabel. Selain itu, sifat antiinflamasi dan antispasmodik mint dapat membantu meredakan ketegangan otot dan mengurangi rasa nyeri. Aroma segar dari daun mint juga dikaitkan dengan kemampuannya meningkatkan fokus dan mengurangi kelelahan. Minuman atau minyak esensial yang mengandung daun mint sering digunakan untuk memberikan sensasi penyegaran dan meningkatkan nafsu makan. Selain manfaat fungsional, tanaman mint sering dijadikan pilihan populer dalam berbagai kuliner dan minuman untuk memberikan sentuhan rasa yang unik dan menyegarkan."
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

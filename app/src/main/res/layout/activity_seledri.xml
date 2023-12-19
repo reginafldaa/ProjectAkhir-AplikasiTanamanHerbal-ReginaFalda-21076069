@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".seledri_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/seledri"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/seledri"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_below="@+id/seledri"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_half_rounded"/>
+
+        <View
+            android:id="@+id/v_desc"
+            android:layout_width="35dp"
+            android:layout_height="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/bg_shape"
+            android:backgroundTint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v_desc"
+            android:text="Nama Tanaman Herbal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/ayam"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_namaTH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul"
+            android:text="Seledri (Apium graveolens L.) "
+            android:textSize="17sp"
+            android:fontFamily="@font/cornersky"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_judul_manfaat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_namaTH"
+            android:text="Manfaat Tanaman Herbal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/ayam"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_manfaatTanaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul_manfaat"
+            android:text="Sebagai sumber antioksidan dan vitamin K yang tinggi, seledri dapat mendukung kesehatan tulang dan pembekuan darah. Selain itu, senyawa fitokimia dalam seledri diketahui memiliki potensi antiinflamasi, membantu mengurangi peradangan dalam tubuh. Kandungan seratnya juga dapat mendukung pencernaan yang sehat dan mengurangi risiko penyakit jantung. Selain manfaat fisik, seledri juga dapat memiliki efek positif pada kesehatan mental, membantu mengurangi stres dan meningkatkan kualitas tidur. Dengan kombinasi manfaat nutrisi dan sifat-sifat antiinflamasi, seledri berfungsi sebagai tanaman herbal yang dapat mendukung gaya hidup sehat secara menyeluruh."
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/cornersky"
+            android:layout_marginRight="20dp"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

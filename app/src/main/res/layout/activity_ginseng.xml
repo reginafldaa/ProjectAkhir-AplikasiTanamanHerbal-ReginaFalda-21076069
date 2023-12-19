@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ginseng">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ginseng"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/ginseng"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_below="@+id/ginseng"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_half_rounded"/>
+
+        <View
+            android:id="@+id/v_desc"
+            android:layout_width="35dp"
+            android:layout_height="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/bg_shape"
+            android:backgroundTint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v_desc"
+            android:text="Nama Tanaman Herbal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_namaTH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul"
+            android:text="Ginseng"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_judul_manfaat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_namaTH"
+            android:text="Manfaat Tanaman Herbal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_manfaatTanaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul_manfaat"
+            android:text="Sebagai adaptogen, ginseng dapat membantu tubuh beradaptasi dengan stres fisik dan mental, meningkatkan daya tahan tubuh, dan mengurangi kelelahan. Senyawa-senyawa aktif dalam ginseng, seperti ginsenosides, memiliki sifat antiinflamasi dan antioksidan yang dapat mendukung sistem kekebalan tubuh dan melindungi sel-sel dari kerusakan radikal bebas. Selain itu, ginseng juga diyakini dapat meningkatkan energi, daya konsentrasi, dan fungsi kognitif. Beberapa penelitian juga menunjukkan bahwa ginseng dapat membantu mengatur kadar gula darah, meningkatkan fungsi jantung, dan bahkan mendukung kesehatan seksual. Meskipun ginseng memiliki potensi manfaat yang signifikan, konsultasi dengan profesional kesehatan sebelum mengonsumsinya direkomendasikan, terutama jika seseorang memiliki kondisi kesehatan tertentu atau mengonsumsi obat-obatan lain."
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".jahe">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/jahe"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/jahe"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_below="@+id/jahe"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_half_rounded"/>
+
+        <View
+            android:id="@+id/v_desc"
+            android:layout_width="35dp"
+            android:layout_height="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/bg_shape"
+            android:backgroundTint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v_desc"
+            android:text="Nama Tanaman Herbal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_namaTH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul"
+            android:text="Jahe (Zingiber officinale)"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_judul_manfaat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_namaTH"
+            android:text="Manfaat Tanaman Herbal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_manfaatTanaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul_manfaat"
+            android:text="Daun sirih, yang berasal dari tanaman sirih (Piper betle), telah lama dikenal karena manfaatnya sebagai tanaman herbal. Daun sirih mengandung senyawa-senyawa aktif seperti eugenol, estragol, dan karvakrol yang memiliki sifat antimikroba, antiinflamasi, dan antioksidan. Oleh karena itu, daun sirih sering digunakan sebagai obat herbal tradisional untuk mengatasi berbagai masalah kesehatan, termasuk infeksi mulut, gangguan pernapasan, dan masalah kulit. Pengunyah daun sirih juga dikenal dapat memberikan kesegaran pada mulut dan mengurangi bau badan. Selain itu, daun sirih juga digunakan dalam praktik pengobatan tradisional untuk meningkatkan pencernaan, mengurangi radang, dan membantu mengatasi gangguan pernapasan. Dengan khasiatnya yang beragam, daun sirih terus menjadi bagian penting dari warisan pengobatan tradisional di berbagai budaya. Namun, sebaiknya sebelum mengonsumsi secara berlebihan, sebaiknya konsultasikan dengan tenaga kesehatan terkait untuk memastikan bahwa penggunaan daun sirih sesuai dengan kebutuhan dan kondisi kesehatan individu."
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

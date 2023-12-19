@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+
+    <TextView
+        android:id="@+id/tv_profile"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/custom_button"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:paddingVertical="60dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/ic_user"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="14dp"
+        android:text="Save"
+        android:padding="1dp"
+        android:backgroundTint="@color/pink"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/pink"
+        android:layout_marginLeft="14dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/profileImage"
+        android:padding="60dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ly_1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_shape"
+        android:hint="Username"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/edit_username"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_shape"
+        android:hint="Email"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit_email" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_shape"
+        android:paddingLeft="20dp"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit_password" />
+    </LinearLayout>
+
+
+</RelativeLayout>
